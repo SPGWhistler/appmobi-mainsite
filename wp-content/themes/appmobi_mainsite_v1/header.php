@@ -34,19 +34,5 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
-		<div class="site-header-inner">
-			<nav id="site-navigation" class="main-navigation" role="navigation">
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-			</nav><!-- #site-navigation -->
-
-			<div class="site-title"><a href="http://appmobi.com/" title="<?php echo esc_attr( 'appMobi.com' ); ?>">appMobi.com</a></div>
-
-			<?php $header_image = get_header_image();
-			if ( ! empty( $header_image ) ) : ?>
-				<div class="header-image">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( $header_image ); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" /></a>
-				</div>
-			<?php endif; ?>
-		</div>
 	</header><!-- #masthead -->
 	<div id="main" class="wrapper">
