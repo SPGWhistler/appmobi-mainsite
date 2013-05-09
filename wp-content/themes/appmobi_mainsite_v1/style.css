@@ -371,9 +371,6 @@ video {
 .widget img,
 .author-avatar img,
 img.wp-post-image {
-	/* Add fancy borders to all WordPress-added images but not things like badges and icons and the like */
-	border-radius: 3px;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 .wp-caption {
 	max-width: 100%; /* Keep wide captions from overflowing their container. */
@@ -1406,6 +1403,91 @@ img.template-front-page {
 	float: left;
 	margin: 8px 24px 8px 0;
 	margin: 0.571428571rem 1.714285714rem 0.571428571rem 0;
+}
+
+.template-front-page .top {
+	margin: 0 auto;
+	width: 800px;
+}
+.template-front-page .logo {
+	position: relative;
+	float: left;
+	text-align: right;
+}
+.template-front-page .blurb {
+	background-image: url('images/top_blurbframe.png');
+	position: relative;
+	float: right;
+	width: 445px;
+	height: 75px;
+	font-size: 15px;
+	letter-spacing: 0.1em;
+	line-height: 1.25;
+}
+.template-front-page .blurb span {
+	display: block;
+	margin-top: 11px;
+	margin-left: 32px;
+	text-align: left;
+}
+.template-front-page .center-box {
+	margin: 25px auto;
+	width: 800px;
+}
+.template-front-page .center-box-left {
+	border-right: 1px solid rgba(153, 153, 153, 0.22);
+	position: relative;
+	float: left;
+	padding: 0 80px 0 0;
+	text-align: center;
+	width: 320px;
+}
+.template-front-page .center-box-right {
+	position: relative;
+	float: right;
+	text-align: center;
+	width: 320px;
+}
+#getstarted {
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	background-image:url('images/btn_indiv.png');
+	margin: 5px auto 0px auto;
+	width: 320px;
+	height: 56px;
+	line-height: 2.5;
+	display: block;
+	color: #fff;
+	font-family: 'eurostileregular', Helvetica, Arial, sans-serif;
+	font-size: 21px;
+}
+#findout {
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+	background-image:url('images/btn_enterprise.jpg');
+	margin: 5px auto 0px auto;
+	width: 351px;
+	height: 56px;
+	line-height: 2.5;
+	display: block;
+	color: #fff;
+	font-family: 'eurostileregular', Helvetica, Arial, sans-serif;
+	font-size: 21px;
+}
+#videocont {
+	width: 350px;
+	height: 198px;
+	background-image:url('images/vidscreen_enterprise.jpg');
+	position: relative;
+}
+#videoimg {
+	position: absolute;
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+#videoimg p {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
 }
 
 /* contact form 7 styles */
