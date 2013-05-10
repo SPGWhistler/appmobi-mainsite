@@ -1350,16 +1350,6 @@ a.comment-edit-link:hover {
 	color: red;
 }
 
-#body-wrapper {
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-}
-
 /* =Front page template
 -------------------------------------------------------------- */
 

@@ -32,6 +32,5 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="body-wrapper">
-	<div id="page" class="hfeed site">
-		<div id="main" class="wrapper">
+<div id="page" class="hfeed site">
+	<div id="main" class="wrapper">
