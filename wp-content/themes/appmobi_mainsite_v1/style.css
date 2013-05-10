@@ -700,7 +700,7 @@ footer[role="contentinfo"] {
 	font-size: 18px;
 	line-height: 2;
 	margin-bottom: 24px;
-	margin-top: 24px;
+	margin-top: 0;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -1430,7 +1430,7 @@ img.template-front-page {
 	text-align: left;
 }
 .template-front-page .center-box {
-	margin: 25px auto;
+	margin: 66px auto;
 	width: 800px;
 }
 .template-front-page .center-box-left {
