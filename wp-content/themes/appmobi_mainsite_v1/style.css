@@ -1360,7 +1360,6 @@ a.comment-edit-link:hover {
 body.template-front-page {
 	background-image: url('images/bg_texture.png');
 	background-repeat: repeat-x;
-	background-attachment:scroll;
 	text-align: center;
 }
 img.template-front-page {
