@@ -1350,6 +1350,15 @@ a.comment-edit-link:hover {
 	color: red;
 }
 
+#body-wrapper {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
 
 /* =Front page template
 -------------------------------------------------------------- */
@@ -1359,7 +1368,12 @@ a.comment-edit-link:hover {
 	margin-bottom: 1rem;
 }
 body.template-front-page {
-	background-image:url('images/bg_texture.png');
+	background-image: url('images/bg_texture.png');
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)), url('images/bg_texture.png');
+	background-image:    -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)), url('images/bg_texture.png');
+	background-image:     -ms-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)), url('images/bg_texture.png');
+	background-image:      -o-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)), url('images/bg_texture.png');
+	background-image:         linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)), url('images/bg_texture.png');
 	background-attachment:scroll;
 	text-align: center;
 }

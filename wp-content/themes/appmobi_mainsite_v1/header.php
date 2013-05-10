@@ -32,7 +32,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
-	<header id="masthead" class="site-header" role="banner">
-	</header><!-- #masthead -->
-	<div id="main" class="wrapper">
+<div id="body-wrapper">
+	<div id="page" class="hfeed site">
+		<div id="main" class="wrapper">
