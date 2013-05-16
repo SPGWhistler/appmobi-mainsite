@@ -537,8 +537,7 @@ a:hover {
 .site {
 }
 .site-content {
-	margin: 24px 0 0;
-	margin: 1.714285714rem 0 0;
+	margin: 24px 24px;
 }
 .widget-area {
 	margin: 24px 0 0;
@@ -688,6 +687,7 @@ section[role="banner"] {
 	margin: 45px auto 0px auto;
 	width: 73px;
 	height: 23px;
+	text-align: center;
 }
 .site-info-spacer {
 	color: #57cfcd;
@@ -990,12 +990,6 @@ img.aligncenter {
 	padding: 6px 10px 6px 0;
 }
 .site-content article {
-	border-bottom: 4px double #ededed;
-	margin-bottom: 72px;
-	margin-bottom: 5.142857143rem;
-	padding-bottom: 24px;
-	padding-bottom: 1.714285714rem;
-	word-wrap: break-word;
 }
 .page-links {
 	clear: both;
