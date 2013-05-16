@@ -20,8 +20,7 @@
 			<a href="<?php echo esc_url( __( 'http://apphub.appmobi.com/', 'twentytwelve' ) ); ?>"><?php printf( __( 'Login / SignUp', 'twentytwelve' ), 'Login / SignUp' ); ?></a>
 		</div><!-- .site-info -->
 		<div class="site-info-contact">
-			<a class="site-info-contact-anchor" href="#">contact</a>
-			[contact-form-7 id="39" title="contact us"]
+			<a class="site-info-contact-anchor" href="http://tmp.appmobi.com/index.php/contact-us/">contact</a>
 		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
