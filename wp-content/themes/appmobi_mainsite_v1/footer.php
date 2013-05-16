@@ -21,6 +21,7 @@
 		</div><!-- .site-info -->
 		<div class="site-info-contact">
 			<a class="site-info-contact-anchor" href="#">contact</a>
+			[contact-form-7 id="39" title="contact us"]
 		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
