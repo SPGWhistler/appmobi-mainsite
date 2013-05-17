@@ -20,9 +20,27 @@
 			<a href="<?php echo esc_url( __( 'http://apphub.appmobi.com/', 'twentytwelve' ) ); ?>"><?php printf( __( 'Login / SignUp', 'twentytwelve' ), 'Login / SignUp' ); ?></a>
 		</div><!-- .site-info -->
 		<div class="site-info-contact">
-			<a class="site-info-contact-anchor" href="http://tmp.appmobi.com/index.php/contact-us/">contact</a>
+			<a id="contactuslink" class="site-info-contact-anchor" href="#">contact</a>
 		</div>
 	</footer><!-- #colophon -->
+	<div id="appMobi_lightbox" style="display: none; overflow: hidden; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1000; background-color: rgba(0,0,0, 0.5);">
+		<div style="color: #fff; position: fixed; top: 50%; margin-top: -250px; height: 500px; width: 100%; background-color: rgba(0,0,0, 0.85);">
+			<div id="contactusbox" style="text-align: left; width: 340px; margin: 25px auto 0 auto;">
+				<p style="color: #97c93e; font-size: 24px;">Contact Us</p>
+				<?php echo do_shortcode( '[contact-form-7 id="39" title="contact us"]' ); ?>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		jQuery('#contactuslink').click(function(){
+			jQuery('#appMobi_lightbox').fadeIn();
+		});
+		jQuery(document).bind('mailsent.wpcf7', function() {
+			setTimeout(function(){
+				jQuery('#appMobi_lightbox').fadeOut();
+			}, 2000);
+		});
+	</script>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
