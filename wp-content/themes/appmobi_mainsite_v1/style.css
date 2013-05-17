@@ -1494,9 +1494,45 @@ img.template-front-page {
 	display: none;
 	margin-top: 40px;
 }
-/* contact us form */
-#contactus {
+/* find out form */
+#findoutform input {
+	font-family: helvetica;
+	font-size: 22px;
+	color: #535353;
+	width: 100%;
+	padding: 10px 0 10px 10px;
+	margin: 10px 0 10px 0;
+	border-radius: 0;
+	border: none;
 }
+#findoutform textarea {
+	font-family: helvetica;
+	font-size: 22px;
+	color: #535353;
+	width: 100%;
+	height: 100px;
+	padding: 10px 0 10px 10px;
+	margin: 10px 0 10px 0;
+	border-radius: 0;
+	border: none;
+}
+#findoutform .wpcf7-submit {
+	color: #fff;
+	font-size: 22px;
+	width: 350px;
+	height: 54px;
+	background-image: url('images/bluebar.png');
+}
+#findoutform div.wpcf7-response-output {
+	margin: 0;
+}
+#findoutform .ajax-loader {
+	float: right;
+	position: relative;
+	right: -45px;
+	top: -45px;
+}
+/* contact us form */
 #contactus input {
 	font-family: helvetica;
 	font-size: 22px;

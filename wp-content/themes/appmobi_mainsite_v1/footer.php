@@ -30,10 +30,12 @@
 				<a href="#" id="closelink1"><img style="float: right; position: relative; top: 2px; right: -10px;" src="images/x.png" width="16" height="15" /></a>
 				<?php echo do_shortcode( '[contact-form-7 id="39" title="contact us"]' ); ?>
 			</div>
-			<div id="findoutbox" style="display: none; text-align: left; width: 340px; margin: 25px auto 0 auto;">
-				<p style="color: #97c93e; float: left; font-size: 24px;">Find Out</p>
+			<div id="findoutbox" style="display: none; text-align: left; width: 340px; margin: 40px 50% 0; position: relative; left: 105px;">
+				<p style="padding-bottom: 5px; color: #57c1cd; float: left; font-size: 24px;">Getting Started is Simple</p>
 				<a href="#" id="closelink2"><img style="float: right; position: relative; top: 2px; right: -10px;" src="images/x.png" width="16" height="15" /></a>
-				<?php echo do_shortcode( '[contact-form-7 id="39" title="contact us"]' ); ?>
+				<div class="clear"></div>
+				<p style="color: #ddd; font-family: helvetica; font-size: 16px; line-height: 1.4;">Just provide us with your name and email address. Then we'll follow-up with you to get all the information needed to equip you with the tools to make your app come alive.</p>
+				<?php echo do_shortcode( '[contact-form-7 id="37" title="get started button"]' ); ?>
 			</div>
 		</div>
 	</div>
@@ -57,6 +59,7 @@
 		function hideLightbox() {
 			jQuery('#appMobi_lightbox').fadeOut(function() {
 				jQuery('#contactusbox').hide();
+				jQuery('#findoutbox').hide();
 			});
 		}
 		function showLightbox(boxid) {
