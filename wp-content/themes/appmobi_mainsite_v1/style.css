@@ -1494,6 +1494,12 @@ img.template-front-page {
 	display: none;
 	margin-top: 40px;
 }
+/* contact us form */
+#wpcf7-f39-p2-o2 {
+}
+#wpcf7-f39-p2-o2 input {
+	width: 100%;
+}
 .wpcf7-text {
 	font-size: 18px;
 }
