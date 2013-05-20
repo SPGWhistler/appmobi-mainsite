@@ -1354,6 +1354,7 @@ a.comment-edit-link:hover {
 	margin-bottom: 1rem;
 }
 body.template-front-page {
+	background-color: #fff;
 	background-image: url('images/bg_texture.png');
 	background-repeat: repeat-x;
 	text-align: center;
