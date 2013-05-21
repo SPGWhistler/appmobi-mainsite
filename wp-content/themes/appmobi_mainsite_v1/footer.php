@@ -58,8 +58,9 @@
 		});
 		function hideLightbox() {
 			jQuery('#appMobi_lightbox').fadeOut(function() {
-				jQuery('#contactusbox').hide();
-				jQuery('#findoutbox').hide();
+				jQuery('#appMobi_lightbox>div').each(function(){
+					jQuery(this).hide();
+				});
 			});
 		}
 		function showLightbox(boxid) {
