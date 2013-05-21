@@ -540,6 +540,10 @@ a:hover {
 .site {
 }
 .site-content {
+	width: 800px;
+	margin: 0 auto;
+}
+.template-front-page .site-content {
 	margin: 24px 24px;
 }
 .widget-area {
@@ -1406,6 +1410,10 @@ img.template-front-page {
 	margin: 0 auto;
 	width: 800px;
 }
+.template-full-page {
+	margin: 75px auto;
+	width: 800px;
+}
 .template-front-page .logo {
 	position: relative;
 	float: left;
@@ -1680,14 +1688,14 @@ img#wpstats {
 		margin: 0 auto;
 		overflow: hidden;
 	}
-	.site-content {
-		float: left;
-		width: 65.104166667%;
+	body.template-front-page .site-content {
+		width: 100%;
 	}
-	body.template-front-page .site-content,
+	body.full-width {
+		background-image: url('images/bg_texture.png');
+	}
 	body.single-attachment .site-content,
 	body.full-width .site-content {
-		width: 100%;
 	}
 	.widget-area {
 		float: right;

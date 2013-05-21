@@ -15,6 +15,15 @@
  */
 
 get_header(); ?>
+<div class="template-front-page top template-full-page">
+	<div class="template-front-page logo">
+		<img src="http://tmp.appmobi.com/wp-content/uploads/2013/05/logo_cloudservices.png" width="303" height="74" />
+	</div>
+	<div class="template-front-page blurb">
+		<span>Cross platform push messaging, app promotion, in-app purchasing, integrated analytics and more, for all applications and deployed in any environment.</span>
+	</div>
+	<div class="clear"></div>
+</div>
 
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
