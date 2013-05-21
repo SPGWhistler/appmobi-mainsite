@@ -1358,6 +1358,9 @@ a.comment-edit-link:hover {
 	margin-bottom: 14px;
 	margin-bottom: 1rem;
 }
+body.full-width {
+	background-image: url('images/bg_texture_nograd.png');
+}
 body.template-front-page {
 	background-color: #fff;
 	background-image: url('images/bg_texture.png');
@@ -1690,9 +1693,6 @@ img#wpstats {
 	}
 	body.template-front-page .site-content {
 		width: 100%;
-	}
-	body.full-width {
-		background-image: url('images/bg_texture.png');
 	}
 	body.single-attachment .site-content,
 	body.full-width .site-content {
