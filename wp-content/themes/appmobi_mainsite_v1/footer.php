@@ -58,7 +58,7 @@
 		});
 		function hideLightbox() {
 			jQuery('#appMobi_lightbox').fadeOut(function() {
-				jQuery('#appMobi_lightbox>div').each(function(){
+				jQuery('#appMobi_lightbox>div>div').each(function(){
 					jQuery(this).hide();
 				});
 			});
