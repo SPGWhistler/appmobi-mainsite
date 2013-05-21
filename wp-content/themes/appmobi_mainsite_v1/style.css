@@ -1546,7 +1546,7 @@ img.template-front-page {
 	top: -45px;
 }
 /* justportit form */
-.justportit input {
+#justportit input {
 	font-family: helvetica;
 	font-size: 22px;
 	color: #535353;
@@ -1556,7 +1556,7 @@ img.template-front-page {
 	border-radius: 0;
 	border: none;
 }
-.justportit textarea {
+#justportit textarea {
 	font-family: helvetica;
 	font-size: 22px;
 	color: #535353;
@@ -1567,24 +1567,24 @@ img.template-front-page {
 	border-radius: 0;
 	border: none;
 }
-.justportit .wpcf7-submit {
+#justportit .wpcf7-submit {
 	color: #fff;
 	font-size: 22px;
 	width: 350px;
 	height: 54px;
 	background-image: url('images/greenbar.png');
 }
-.justportitbox div.wpcf7-response-output {
+#justportitbox div.wpcf7-response-output {
 	margin: 0;
 }
-.justportitbox .ajax-loader {
+#justportitbox .ajax-loader {
 	float: right;
 	position: relative;
 	right: -45px;
 	top: -45px;
 }
 /* contact us form */
-.contactus input {
+#contactus input {
 	font-family: helvetica;
 	font-size: 22px;
 	color: #535353;
@@ -1594,7 +1594,7 @@ img.template-front-page {
 	border-radius: 0;
 	border: none;
 }
-.contactus textarea {
+#contactus textarea {
 	font-family: helvetica;
 	font-size: 22px;
 	color: #535353;
@@ -1605,17 +1605,17 @@ img.template-front-page {
 	border-radius: 0;
 	border: none;
 }
-.contactus .wpcf7-submit {
+#contactus .wpcf7-submit {
 	color: #fff;
 	font-size: 22px;
 	width: 350px;
 	height: 54px;
 	background-image: url('images/greenbar.png');
 }
-.contactusbox div.wpcf7-response-output {
+#contactusbox div.wpcf7-response-output {
 	margin: 0;
 }
-.contactusbox .ajax-loader {
+#contactusbox .ajax-loader {
 	float: right;
 	position: relative;
 	right: -45px;
