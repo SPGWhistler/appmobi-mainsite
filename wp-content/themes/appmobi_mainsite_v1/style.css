@@ -1442,6 +1442,12 @@ img.template-front-page {
 	margin: 66px auto;
 	width: 738px;
 }
+.template-front-page .center-box-only {
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
 .template-front-page .center-box-left {
 	border-right: 1px solid rgba(153, 153, 153, 0.22);
 	position: relative;
@@ -1459,8 +1465,8 @@ img.template-front-page {
 #getstarted {
 	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
 	background-image:url('images/btn_indiv.png');
-	margin: 5px auto 0px auto;
-	width: 320px;
+	margin: 40px auto 0px auto;
+	width: 100%;
 	height: 56px;
 	line-height: 2.5;
 	display: block;
@@ -1481,10 +1487,11 @@ img.template-front-page {
 	font-size: 21px;
 }
 #videocont {
-	width: 350px;
-	height: 198px;
+	width: 738px;
+	height: 415px;
 	background-image:url('images/vidscreen_enterprise.jpg');
 	position: relative;
+	margin-bottom: 40px;
 }
 #videoimg {
 	position: absolute;
