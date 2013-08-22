@@ -15,6 +15,8 @@
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'http://apphub.appmobi.com/', 'twentytwelve' ) ); ?>"><?php printf( __( 'AppHub', 'twentytwelve' ), 'AppHub' ); ?></a>
 			<span class="site-info-spacer">|</span>
+			<a href="<?php echo esc_url( __( 'http://forums.appmobi.com/', 'twentytwelve' ) ); ?>"><?php printf( __( 'Forums', 'twentytwelve' ), 'Forums' ); ?></a>
+			<span class="site-info-spacer">|</span>
 			<a href="<?php echo esc_url( __( 'http://docs.appmobi.com/', 'twentytwelve' ) ); ?>"><?php printf( __( 'Documentation', 'twentytwelve' ), 'Documentation' ); ?></a>
 			<span class="site-info-spacer">|</span>
 			<a href="<?php echo esc_url( __( 'http://apphub.appmobi.com/', 'twentytwelve' ) ); ?>"><?php printf( __( 'Login / SignUp', 'twentytwelve' ), 'Login / SignUp' ); ?></a>
